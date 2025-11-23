@@ -1,0 +1,354 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(abstract-perspective-graph-pattern-grid-vector-design_1017-45232.png);
+    background-repeat: no-repeat;
+    background-position: center center; 
+    background-size: cover;
+    background-attachment: fixed;
+    user-select: none;
+    font-family: 'Poppins',monospace;
+}
+p{
+    color: white;
+    z-index: inherit;
+    font-family: 'Poppins', monospace;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+#inner{
+    width: max-content;
+    position: sticky;
+    top: 0; 
+    z-index: 1000;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    width: 1400px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin-top: 10px;
+    box-shadow: 0 0 15px purple;
+    margin-bottom: 20px;
+    backdrop-filter: blur(5px);
+}
+.logodiv{
+    background: rgba(0, 0, 0, 0.048);
+    border-top-left-radius: 50pc;    
+    border-bottom-left-radius: 50pc;    
+    height: 100%;
+    width: 50%;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border: 1px solid purple;
+    box-shadow: 0 0 30px purple;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 2px;
+    color: palevioletred;
+    background: rgba(0, 0, 0, 0.055);
+    font-family: Arial, Helvetica, sans-serif;
+    transform: translate(5px,4px);
+}
+.text{
+    transform: translate(60px,-25px);
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+.nerves{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.048);
+    width: 50%;
+    border-top-right-radius: 50pc;    
+    border-bottom-right-radius: 50pc;    
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+    transition: 0.5s;
+    text-align: center;
+}
+a::after{
+    display: flex;
+    content: '';
+    width: 80px;
+    height: 5px;
+    background: linear-gradient(45deg,black,red);
+    text-align: center;
+    border-radius: 25px;
+}
+#innest{
+    display: grid;
+    backdrop-filter: blur(5px);
+    background: rgba(0, 0, 0, 0.055);
+    width: 1400px;
+    height: 1700px;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 0 0 15px purple;
+    scrollbar-color: #8a83835e #00000015;
+}
+.indic{
+    display: flex;
+    transform: translate(50px,30px);
+}
+#facecardid{
+    display: flex;
+    width: 650px;
+    height: 300px;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    box-shadow: inset 0 0 15px rgb(0, 255, 0);
+    background: rgba(245, 245, 245, 0.1);
+    transform: translate(40px,40px);
+}
+.face{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgb(0, 255, 0); 
+    transform: translate(20px,60px);
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    border: 1px solid transparent;
+    width: 400px;
+    height: 200px;
+    margin-left: 20px;
+    transform: translate(20px,40px);
+}
+.tileone{
+    color: white;
+    width: 650px;
+    height: 300px;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    box-shadow: inset 0 0 15px white;
+    background: rgba(245, 245, 245, 0.1);
+    margin-top: 60px;
+    transform: translate(730px,-320px);
+}
+.tiletwo{
+    display: flex;
+    width: 650px;
+    height: 300px;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    box-shadow: inset 0 0 15px rgb(255, 0, 0);
+    background: rgba(245, 245, 245, 0.1);
+    margin-top: 30px;
+    transform: translate(40px,-320px);
+}
+.tilethree{
+    display: flex;
+    width: 650px;
+    height: 300px;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    box-shadow: inset 0 0 15px violet;
+    background: rgba(245, 245, 245, 0.1);
+    margin-top: 30px;
+    transform: translate(730px,-650px);
+}
+
+#tilefour{
+    display: flex;
+    width: 650px;
+    height: 300px;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    box-shadow: inset 0 0 15px white;
+    background: rgba(245, 245, 245, 0.1);
+    margin-top: 30px;
+    transform: translate(40px,-650px);
+}
+.tilefive{
+    display: flex;
+    width: 650px;
+    height: 300px;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    box-shadow: inset 0 0 15px rgb(255, 0, 0);
+    background: rgba(245, 245, 245, 0.1);
+    margin-top: 30px;
+    transform: translate(730px,-980px);
+}
+.tilesix{
+    display: flex;
+    width: 650px;
+    height: 300px;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    box-shadow: inset 0 0 15px rgb(255, 145, 0);
+    background: rgba(245, 245, 245, 0.1);
+    margin-top: 30px;
+    transform: translate(730px,-960px);
+}
+.tilesix2{
+    width: 650px;
+    height: 300px;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    box-shadow: inset 0 0 15px rgb(132, 0, 255);
+    background: rgba(245, 245, 245, 0.1);
+    margin-top: 30px;
+    transform: translate(40px,-1290px);
+}
+#tileseven{
+    display: flex;
+    width: 1400px;
+    height: 100px;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    box-shadow: inset 0 0 15px rgb(255, 0, 0);
+    margin-top: 30px;
+    background: rgba(245, 245, 245, 0.1);
+    transform: translate(0px,-1300px);
+}
+.allrightsreserved{
+    color: white;
+    transform: translate(520px,70px);
+}
+#github-icon{
+    width: 40px;
+    height: 40px;
+    transform: translate(700px,30px);
+    cursor: pointer;
+}
+#Instagram-icon{
+    width: 40px;
+    height: 40px;
+    transform: translate(700px,30px);
+    cursor: pointer;
+}
+h2{
+    color: red;
+    font-family: 'Poppins',monospace;
+    transform: translate(270px,10px);
+}
+.aboutmetext{
+    display: flex;
+    color: grey;
+    transform: translate(20px,10px);
+}
+.secondtext{
+    color: grey;
+    transform: translate(20px,10px);
+}
+.skilllist{
+    display: flex;
+    flex-direction: column;
+    color: grey;
+    font-size: 1.2rem;
+    width: 400px;
+    height: 200px;
+    border: 1px solid transparent;
+    transform: translate(20px,40px);
+}
+.ProjectsList{
+    display: flex;
+    flex-direction: column;
+    color: grey;
+    font-size: 1.2rem;
+    width: 400px;
+    height: 200px;
+    border: 1px solid transparent;
+    transform: translate(20px,40px);
+}
+.Gmail-icon{
+    width: 50px;
+    height: 50px;
+    transform: translate(50px,20px);
+}
+.emailtext{
+    flex-direction: column;
+    font-family: 'Poppins',monospace;
+    color: grey;
+    font-size: 1.2rem;
+    width: 400px;
+    height: 200px;
+    border: 1px solid transparent;
+    transform: translate(105px,-20px);
+}
+.phone-icon{
+    width: 50px;
+    height: 50px;
+    transform: translate(50px,-150px);
+}
+.phonetext{
+    font-family: 'Poppins',monospace;
+    color: grey;
+    font-size: 1.2rem;
+    width: 400px;
+    height: 200px;
+    border: 1px solid transparent;
+    transform: translate(105px,-190px);
+}
+#ArrowUp-icon{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transform: translate(55px,-330px);
+}
+.Arrowtext{
+    flex-direction: column;
+    font-family: 'Poppins',monospace;
+    color: grey;
+    font-size: 1.2rem;
+    width: 400px;
+    height: 200px;
+    border: 1px solid transparent;
+    transform: translate(110px,-370px);
+}
+.listofservices{
+    display: flex;
+    flex-direction: column;
+    color: grey;
+    font-size: 1.2rem;
+    width: 500px;
+    height: 200px;
+    border: 1px solid transparent;
+    transform: translate(-50px,50px);
+}
+.detailsanime{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.typewriter-container h1 {
+  font-family: monospace;
+  display: inline-block;
+  margin: 0;
+  white-space: nowrap;
+}
+.typing-text {
+  border-right: .15em solid orange;
+  white-space: nowrap; 
+  overflow: hidden; 
+  display: inline-block;
+  vertical-align: top;
+  animation: blink-caret .75s step-end infinite; 
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
