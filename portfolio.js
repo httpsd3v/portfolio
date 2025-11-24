@@ -4,7 +4,7 @@ const ArrowUpico = document.getElementById("ArrowUp-icon");
 
 if (gitico) {
     gitico.addEventListener("click", (e) => { 
-        window.location.assign("https://github.com/Perp853"); 
+        window.location.assign("https://github.com/httpsd3v"); 
     });
 }
 if (instaico) {
